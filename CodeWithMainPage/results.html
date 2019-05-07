@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Results</title>
+		<link rel="stylesheet" href="screenstyles.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+    </head>
+        
+	<body>
+		<div class="header">
+			<img id="logo" src="images/cheapoair%20logo.jpg" alt="logo">
+            <p id="tagline">Book Online or call us 24/7 Toll Free:<strong style="color:red">1-888-516-3043</strong></p>            
+            <hr>
+		</div>
+        
+        <div class="progressbar">
+            <button type="button" class="btn btn-primary"><span class="badge badge-light">1</span>Select Package</button>
+            <button type="button" class="btn btn-light"><span class="badge badge-light">2</span>Select Room Type</button>
+            <button type="button" class="btn btn-light"><span class="badge badge-light">3</span>Select add-ons</button>
+            <button type="button" class="btn btn-light"><span class="badge badge-light">4</span>Review and book</button>
+        </div>
+        
+        <form class="travelInfo">
+            <input type="text" name="departLocation">
+            <input type="text" name="destinationLocation">
+            <input type="text" name="departDate">
+            <input type="text" name="returnDate">
+            <select name="beds">
+                <option value="1">1</option>
+            </select>
+            <select name="travelers">
+                //multiple drop downs
+            </select>
+            <button type="button">Update</button>
+        </form>
+        
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#">Most Popular</a></li>
+          <li><a href="#">Savings</a></li>
+          <li><a href="#">Price</a></li>
+          <li><a href="#">Star Rating</a></li>
+          <li><a href="#">Distance</a></li>
+          <li><a href="#">TripAdvisor Rating</a></li>
+        </ul>
+        
+        
+        <div class="resultBox">
+            <h2><a href="#">Best Western Seven Seas</a></h2>
+            <textarea name="savings" id="pkgsavinsg">Package Savings: $63</textarea>
+            <img id="hotelpic" class="img-responsive" src="images/BestWestern.jpg">
+            //star rating
+            //good tripadvisor
+            <p id="hotelInfo">1742 reviews</p><br>
+            <span id="hotelInfo"><strong>Location / Address:</strong></span>
+            <span><a href="#">show on map</a></span>
+            <p id="hotelInfo">411 Hotel Circle South, San Diego, CA, US 92108</p>
+            <span id="hotelInfo"><strong>Selected Room Type:</strong></span>
+            <span><a href="#">Change room type</a></span>
+            <p id="hotelInfo">Standard room, 1 queen bed, non smoking</p>
+            <a href="#">more photos</a>
+            
+            <h3><img id="bluecheck" src="images/bluecheck.png">Free Cancellation</h3>
+            <hr>
+            <p><strong>Amenities: </strong>Free self parking   No rollaway/extra beds available   Coffee/tea maker  <a href="#">see all</a></p>
+            <hr>
+            <a href="#">Flight Details[+]</a>
+            <span>Roundtrip Flight included</span>
+            <span><a href="#">Change flight/View more flight options</a></span>
+            
+            <textarea id="totPackPrice">
+                <p id="pkghead">Total Package Price</p>
+                <h3>$720.83</h3>
+                <p>per person</p>
+                <p>Package Price includes Flight + Hotel</p>
+                <button class="btn peach-gradient"><strong>Select</strong></button>
+            </textarea>
+        </div>
+        
+    </body>
+    
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+    
+</html>

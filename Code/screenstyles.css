@@ -1,0 +1,173 @@
+*{
+	box-sizing:border-box;
+}
+
+body {
+	background-color: white;
+}
+
+img { 
+	max-width: 100%;
+}
+
+#logo {
+    width: 150px;
+    height: 50px;
+}
+
+#tagline {
+    float: right;
+}
+
+/* Styles for Mobile Layout */
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	font-family: Verdana, Arial, serif;
+	font-size: 2em;
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	text-align: center;
+	padding: 0.2em;
+	color: #000066; 
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.nav nav-tabs li.active a {
+    border-radius:5px 5px 0 0;
+    border-top:1px solid grey;
+    position:relative;
+    top:-3px;
+    padding-top:10px;
+    margin-bottom:-4px;
+    height: 16px;
+}
+
+.nav nav-tabs {
+    padding:8px;
+    text-decoration:none;
+    float:left;
+    width:auto;
+    font-weight:bold;
+}
+
+
+/* Style for each vacation package available */
+.resultBox {
+    border:1px solid darkblue;
+    padding:20px;
+    width:auto;
+    margin:20px;
+    text-align:left;
+}
+
+
+
+h3 {
+    color:#076ba7;
+    font-size: 18px;
+    line-height:31px;
+}
+
+/* Style for main hotel pic*/
+#hotelpic {
+    margin:5px;
+    float:left;
+    width:200px;
+    height:150px;
+}
+
+/*Star rating system style */
+#starRating {
+    height:14px;
+    width:82px;
+}
+
+#greenGood {
+    height: 13px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    
+}
+
+/*TripAdvisor rating */
+#tarating {
+    height: 13px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+
+#pkgsavings {
+    background: #cff6f8;
+    color: #2c2c2c;
+    font-size: 16px;
+    font-weight: bold;
+    float: right;
+    padding: 2px 2px;
+    box-shadow: 0 -2px 5px 0 #ccc inset;
+}
+
+
+#bluecheck {
+    height:13px;
+}
+
+
+
+#myTripPlanner {
+    float:right;
+    max-width:auto;
+    border: 1px solid darkblue;
+    box-sizing: border-box;
+}
+
+#searchFilters {    
+    float:right;
+    max-width:auto;
+    border: 1px solid darkblue;
+    box-sizing: border-box;
+    padding:5px 5px;
+}
+
+.panel-heading {
+    color:white;
+    background-color:blue;
+}
+
+
+.price-content {
+    padding:0 0 3px 0;
+    width:160px;
+    height:auto;
+    border:3px ridge grey;
+    border-radius:2px;
+}
+
+
+.CurrencySmallDiv {
+    display:none;
+}
+
+}
